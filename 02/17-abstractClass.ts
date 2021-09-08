@@ -32,6 +32,12 @@ namespace VehicleAbstractNamespace {
       this.wheelCount = newWheelCount;
       console.log(`Automobile has ${this.wheelCount} wheels`);
     }
+
+    // This `Automobile` class has its own implementation of
+    // `showNumberOfWheels()` - called overriding
+    showNumberOfWheels() {
+      console.log(`Automobile has ${this.wheelCount} wheels`);
+    }
   }
 
   const motorcycle = new Motorcycle();
