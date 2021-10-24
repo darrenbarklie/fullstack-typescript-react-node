@@ -6,17 +6,17 @@ const widgets = [
 ];
 
 console.log(
-  "Some are blue",
+  "Some are blue: ",
   widgets.some((item) => {
     return item.color === "blue";
   })
 );
-// => Some are blue true
+// => Some are blue: true
 
 console.log(
-  "Every one is blue",
+  "Every one is blue: ",
   widgets.every((item) => {
     return item.color === "blue";
   })
 );
-// => Every one is blue false
+// => Every one is blue: false
